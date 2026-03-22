@@ -5,7 +5,6 @@ ha_category:
   - Downloading
   - Sensor
   - Switch
-  - Binary sensor
 ha_release: 0.87
 ha_iot_class: Local Polling
 ha_config_flow: true
@@ -15,7 +14,6 @@ ha_codeowners:
   - '@andrew-codechimp'
 ha_domain: transmission
 ha_platforms:
-  - Binary sensor
   - sensor
   - switch
 ha_integration_type: service
@@ -50,10 +48,10 @@ Verify SSL certificate:
   description: "Enable SSL certificate verification when connecting via HTTPS."
 {% endconfiguration_basic %}
 
-### Binary sensors
+## Supported functionality
 
-A binary sensor indicating whether the incoming peer port is open and reachable from the internet (port forwarding status).
-  
+The Transmission integration will add the following sensors and switches.
+
 ### Sensors
 
 - The status of your Transmission daemon.
@@ -64,12 +62,6 @@ A binary sensor indicating whether the incoming peer port is open and reachable 
 - The total number of torrents present in the client.
 - The current number of started torrents (downloading).
 - The current number of completed torrents (seeding).
-- The current session downloaded data [GB].
-- The current session uploaded data [GB].
-- The total downloaded data [GB].
-- The total uploaded data [GB].
-- The current session upload/download ratio.
-- The total upload/download ratio.
 
 ### Switches
 
