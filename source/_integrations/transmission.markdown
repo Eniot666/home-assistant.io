@@ -62,10 +62,10 @@ The Transmission integration will add the following sensors and switches.
 - The total number of torrents present in the client.
 - The current number of started torrents (downloading).
 - The current number of completed torrents (seeding).
-- The current session downloaded data [GB].
-- The current session uploaded data [GB].
-- The total downloaded data [GB].
-- The total uploaded data [GB].
+- The current session downloaded data [GiB].
+- The current session uploaded data [GiB].
+- The total downloaded data [GiB].
+- The total uploaded data [GiB].
 - The current session upload/download ratio.
 - The total upload/download ratio.
 
